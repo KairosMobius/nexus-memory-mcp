@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "nexus-memory": {
+      "command": "npx",
+      "args": ["-y", "nexus-memory-mcp"],
+      "env": {
+        "NEXUS_API_KEY": "mnx_your_api_key_here"
+      }
+    }
+  }
+}
