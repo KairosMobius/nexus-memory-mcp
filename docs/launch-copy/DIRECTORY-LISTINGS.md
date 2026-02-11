@@ -22,7 +22,7 @@ Key features:
 - **Shared + Private Memory**: Built for multi-agent teams. Shared context for the team, private memory for each agent.
 - **Quality Validation**: Every memory has importance scoring. Intelligence Packs are domain-expert verified.
 
-Install: `npx -y @nexus/memory-mcp`
+Install: `npx -y nexus-memory-mcp`
 
 **Tags:** memory, intelligence, knowledge-graph, semantic-search, agent-teams, persistent-memory
 
@@ -50,10 +50,10 @@ Persistent semantic memory for AI agents with four intelligence layers and pre-b
 - Shared + Private memory model for multi-agent teams
 - Quality validation and importance scoring
 
-**Install:** `npx -y @nexus/memory-mcp`
+**Install:** `npx -y nexus-memory-mcp`
 
 **Links:**
-- npm: `@nexus/memory-mcp`
+- npm: `nexus-memory-mcp`
 - GitHub: [repo link]
 - Docs: [docs link]
 
@@ -76,7 +76,7 @@ Four intelligence layers working together: semantic search, knowledge graph, tem
 
 **Category:** Developer Tools / Memory / Agent Infrastructure
 
-**Install command:** `npx -y @nexus/memory-mcp`
+**Install command:** `npx -y nexus-memory-mcp`
 
 ---
 
@@ -93,7 +93,7 @@ Designed for developers running Agent Teams who need persistent context across s
 
 **Category:** Memory & Knowledge Management
 
-**Install:** `npx -y @nexus/memory-mcp`
+**Install:** `npx -y nexus-memory-mcp`
 
 **MCP Tools:** remember, recall, connect, awaken, hibernate, wear_hat, list_hats, stats, context, forget
 
@@ -116,7 +116,7 @@ Built for Agent Teams. Shared memory for team context, private memory for indivi
 
 **Transport:** stdio
 
-**Install:** `npx -y @nexus/memory-mcp`
+**Install:** `npx -y nexus-memory-mcp`
 
 ---
 
@@ -129,7 +129,7 @@ Persistent semantic memory for AI agents. Four intelligence layers: semantic sea
 
 Not just memory storage. Intelligence that grows.
 
-**Install:** `npx -y @nexus/memory-mcp`
+**Install:** `npx -y nexus-memory-mcp`
 
 **10 MCP Tools:** remember, recall, connect, stats, context, forget, wear_hat, list_hats, awaken, hibernate
 
@@ -152,7 +152,7 @@ What makes it different:
 
 **Install:**
 ```bash
-npx -y @nexus/memory-mcp
+npx -y nexus-memory-mcp
 ```
 
 **Configuration (.mcp.json):**
@@ -161,7 +161,7 @@ npx -y @nexus/memory-mcp
   "mcpServers": {
     "nexus-memory": {
       "command": "npx",
-      "args": ["-y", "@nexus/memory-mcp"],
+      "args": ["-y", "nexus-memory-mcp"],
       "env": { "NEXUS_API_KEY": "your_key" }
     }
   }

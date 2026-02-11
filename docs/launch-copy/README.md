@@ -5,7 +5,7 @@
 Memory Nexus gives Claude Code, Cursor, and Windsurf agents persistent semantic memory that survives across sessions, grows smarter over time, and ships with pre-built domain expertise via Intelligence Packs.
 
 ```bash
-npx -y @nexus/memory-mcp
+npx -y nexus-memory-mcp
 ```
 
 That's it. Your agent remembers now.
@@ -32,7 +32,7 @@ You re-explain everything. Every. Single. Session.
   "mcpServers": {
     "nexus-memory": {
       "command": "npx",
-      "args": ["-y", "@nexus/memory-mcp"],
+      "args": ["-y", "nexus-memory-mcp"],
       "env": {
         "NEXUS_API_KEY": "your_key_here"
       }
@@ -203,7 +203,7 @@ The real power shows up in multi-agent setups.
   "mcpServers": {
     "team-memory": {
       "command": "npx",
-      "args": ["-y", "@nexus/memory-mcp"],
+      "args": ["-y", "nexus-memory-mcp"],
       "env": {
         "NEXUS_API_KEY": "your_key",
         "NEXUS_STORE": "team-shared"
@@ -211,7 +211,7 @@ The real power shows up in multi-agent setups.
     },
     "agent-memory": {
       "command": "npx",
-      "args": ["-y", "@nexus/memory-mcp"],
+      "args": ["-y", "nexus-memory-mcp"],
       "env": {
         "NEXUS_API_KEY": "your_key",
         "NEXUS_STORE": "agent-private",
@@ -239,7 +239,7 @@ When Agent A discovers something, it goes to shared memory. Agent B picks it up 
   "mcpServers": {
     "nexus-memory": {
       "command": "npx",
-      "args": ["-y", "@nexus/memory-mcp"],
+      "args": ["-y", "nexus-memory-mcp"],
       "env": {
         "NEXUS_API_KEY": "mnx_your_key_here"
       }

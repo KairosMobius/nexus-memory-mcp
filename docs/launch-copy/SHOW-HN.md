@@ -29,7 +29,7 @@ It's an MCP server (npm package) that gives any Claude Code, Cursor, or Windsurf
 
 Install:
 ```
-npx -y @nexus/memory-mcp
+npx -y nexus-memory-mcp
 ```
 
 Add to .mcp.json with your API key. Done.

@@ -1,6 +1,7 @@
 {
   "name": "nexus-memory-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.kairosmobius/nexus-memory-mcp",
   "description": "MCP server for Nexus Memory API - persistent semantic memory for AI agents. Remember, recall, connect, learn.",
   "type": "module",
   "bin": {
@@ -20,12 +21,18 @@
     "knowledge-graph",
     "intelligence",
     "claude",
-    "model-context-protocol"
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "model-context-protocol",
+    "persistent-memory",
+    "agent-memory"
   ],
-  "author": "Mobius Collective",
+  "author": "Memory Nexus",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.26.0"
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.22.0"
   },
   "engines": {
     "node": ">=18.0.0"

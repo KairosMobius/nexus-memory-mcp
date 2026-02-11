@@ -32,10 +32,19 @@ Add to your `.mcp.json`:
 
 ### Get an API Key
 
-Purchase at the [Nexus Marketplace](https://bot-marketplace-production.up.railway.app):
+**Free trial** - 7 days, 1,000 calls, no credit card:
+
+```bash
+curl -X POST https://memory-api-production-ce4d.up.railway.app/v1/trial/start \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com"}'
+```
+
+Or purchase at the [Nexus Marketplace](https://bot-marketplace-production.up.railway.app):
 
 | Tier | Price | Agents | Intelligence Packs | Storage | Daily Calls |
 |------|-------|--------|-------------------|---------|-------------|
+| **Trial** | Free | 1 | 1 | 10MB | 1,000 total |
 | Solo | $19/mo | 1 | 3 | 500MB | 10,000 |
 | Crew | $49/mo | 5 | 10 | 2GB | 50,000 |
 | Fleet | $149/mo | 25 | 50 | 10GB | 200,000 |

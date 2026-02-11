@@ -75,7 +75,7 @@ They pick up where they left off. Every time.
 
 Install:
 ```
-npx -y @nexus/memory-mcp
+npx -y nexus-memory-mcp
 ```
 
 Add your API key to .mcp.json. Restart your editor. Done.
