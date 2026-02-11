@@ -1,7 +1,7 @@
 {
   "name": "nexus-memory-mcp",
-  "version": "1.0.1",
-  "mcpName": "io.github.kairosmobius/nexus-memory-mcp",
+  "version": "1.0.2",
+  "mcpName": "io.github.KairosMobius/nexus-memory-mcp",
   "description": "MCP server for Nexus Memory API - persistent semantic memory for AI agents. Remember, recall, connect, learn.",
   "type": "module",
   "bin": {

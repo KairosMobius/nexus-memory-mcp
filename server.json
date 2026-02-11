@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.kairosmobius/nexus-memory-mcp",
-  "description": "Persistent semantic memory for AI agents. Four intelligence layers: semantic search, knowledge graph, temporal awareness, pattern detection. Awaken/hibernate for agent identity continuity. Pre-built Intelligence Packs for instant domain expertise.",
+  "name": "io.github.KairosMobius/nexus-memory-mcp",
+  "description": "Persistent semantic memory for AI agents with knowledge graphs and Intelligence Packs.",
   "repository": {
     "url": "https://github.com/KairosMobius/nexus-memory-mcp",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "nexus-memory-mcp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       },
